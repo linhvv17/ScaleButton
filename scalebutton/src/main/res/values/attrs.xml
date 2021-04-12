@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <resources>
+        <declare-styleable name="IndicatorView">
+            <attr name="cpr_radius_selected" format="dimension" />
+            <attr name="cpr_radius_unselected" format="dimension" />
+
+            <attr name="cpr_color_selected" format="color" />
+            <attr name="cpr_color_unselected" format="color" />
+
+            <attr name="cpr_distance" format="dimension" />
+        </declare-styleable>
+    </resources>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_click"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Click!" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_shape"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_gravity="center"
+            android:id="@+id/btn_favorite"
+            android:layout_width="90dp"
+            app:lottie_rawRes="@raw/favorites"
+            android:layout_height="90dp">
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+    </LinearLayout>
+
+    <com.kma.designbutton.CustomButton
+        android:layout_marginTop="20dp"
+        android:text="Hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.kma.designbutton.CustomButton>
+
+</LinearLayout>
